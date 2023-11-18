@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #0B203D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.logo a {
+    font-size: 2.5rem;
+    color: honeydew;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;      
+
+}
+
+.port {
+    background-color: azure;
+    margin-top: 8rem;
+}
+
+.hero-con {
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    
+}
+
+.hero-info {
+    width: 200%;
+    padding: 2rem;
+    margin-left: 7rem;
+    align-items: center;
+}
+
+.hero-info h3 {
+    font-size: 3rem;
+    
+}
+
+.hero-info p{
+    margin: 1rem 0;
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: #FF7A00;
+    color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+
+.hero-img img {
+    width: 50%;
+    padding: 2rem;
+    border-radius: 2cm;
+    margin-left: 10rem;
+    
+}
+
+.Edu {
+    padding-top: 5cm;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 56px;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main div {
+    padding: 20px;
+}
+
+.rs {
+    font-size: 46px;
+    padding-left: 5.1cm;
+    padding-top: 5cm;
+        
+}
+
+.container2 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.rs-con {
+    display: flex; 
+    align-items: center;
+}
+
+.reason {
+    width: 150%;
+    padding: 2rem;
+
+}
+
+.rs-img img {
+    width: 100%;
+    padding: 2rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #171616;
+    color: white;
+    align-items: center;
+}
+
+.footer-menu {
+    padding: 2rem;
+    max-width: 1100px;
+}
+
+.contact li a {
+    color: white;
+    text-decoration: none;
+}
